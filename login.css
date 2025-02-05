@@ -1,0 +1,89 @@
+/*for mobile*/
+
+@media screen and (max-width: 600px) {
+
+body{
+    background-color:rgb(244, 209, 209) ;
+}
+.login-container{
+    margin-left: 10%;
+    margin-top: 20%;
+    background-color: rgb(245, 43, 43);
+    width: 80%;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+
+}
+
+
+.login-title{
+    font-size: 30px;
+    margin-left: 100px;
+    color: aliceblue;
+}
+
+.login-submit{
+    margin-left: 80px;
+    width: 40%;
+}
+
+#password{
+    width: 70%;
+    height: 20px;
+    margin-left: 30px;
+}
+
+#username{
+    width: 70%;
+    height: 20px;
+    margin-left: 30px;
+}
+
+#error-message{
+    color: aqua;
+    margin-left: 30px;
+}
+
+/*styling for main page*/
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ce1b1b;
+    color: white;
+    border-radius: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logout-btn {
+    background-color: rgb(231, 136, 136);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: darkred;
+}
+
+#fdate-title{
+
+color: rgb(48, 101, 216);
+}
+
+}
+
+/*for laptop*/
+
+
