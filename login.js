@@ -10,7 +10,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     errorMessage.textContent = "";
 
     // Hardcoded username and password (for testing)
-    if (username === "love" && password === "123") {
+    if (username === "lovehanmay" && password === "22102023") {
         alert("Login successful!");
         window.location.href = "main.html"; // Redirect to another page
     } else {
