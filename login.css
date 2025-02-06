@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 600px) {
 
-body{
+#main-body{
     background-color:rgb(244, 209, 209) ;
 }
 .login-container{
@@ -52,7 +52,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 5px 20px;
     background-color: #ce1b1b;
     color: white;
     border-radius: 20px;
@@ -67,10 +67,11 @@ body{
     background-color: rgb(231, 136, 136);
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 5px 10px;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    margin-left: 70px;
 }
 
 .logout-btn:hover {
@@ -80,6 +81,14 @@ body{
 #fdate-title{
 
 color: rgb(48, 101, 216);
+}
+
+#main-body{
+    background-image: url(img/vdayback1.jpg);
+    background-size: cover;
+}
+#header-item{
+    display: flex;
 }
 
 }
